@@ -6,7 +6,7 @@
 	
 	<!-- These windows are required for the client to startup. They are loaded at initial run-time.
 	Removing windows or window components from these files is likely to cause crashes. -->
-	<SystemWindows directory="../Default/WindowsWindows">
+	<SystemWindows directory="../Default/Windows">
 		<Window filename="VGUIInfoMessage.xml"/>
 		<Window filename="VGUICharacterCreationWnd.xml"/>
 		<Window filename="VGUIChatWnd.xml"/>
@@ -22,7 +22,7 @@
 	<!-- These gameplay windows are loaded when you enter the game.
 	Gameplay windows are significantly safer to edit than system windows. -->
 	
-	<GameplayWindows directory="../Default/WindowsWindows">
+	<GameplayWindows directory="../Default/Windows">
 		<Window filename="VGUIFishingAchievements.xml"/>
 		<Window filename="RiftMaps.xml"/>
 		<Window filename="VGUIAbilities.xml"/>

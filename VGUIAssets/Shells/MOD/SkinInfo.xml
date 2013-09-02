@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<XML id="SGOUIMarkupLanguage" version="0.1"
+	xmlns="http://www.sigilgames.com/vanguard-ui-0.1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sigilgames.com/vanguard-ui-0.1 ../../vanguard-ui.xsd">
+<SkinInfo name="Vgrd">
+	<AnimationDefinitions directory="../Default/Textures">
+		<AnimationDefinition filename="RiftAnimations.xml"/>
+		<AnimationDefinition filename="VgrdBackgrounds.xml"/>
+		<AnimationDefinition filename="VgrdChat.xml"/>
+		<AnimationDefinition filename="VgrdParts.xml"/>
+		<AnimationDefinition filename="VgrdParts02.xml"/>
+		<AnimationDefinition filename="VgrdParts03.xml"/>
+		<AnimationDefinition filename="VgrdParts04.xml"/>
+		<AnimationDefinition filename="VgrdDiplomacy.xml"/>
+		<AnimationDefinition filename="VgrdMinimap.xml"/>
+		<AnimationDefinition filename="VgrdStories.xml"/>
+		<AnimationDefinition filename="VgrdParts05.xml"/>
+		<AnimationDefinition filename="VgrdParts06.xml"/>
+	</AnimationDefinitions>
+
+	<ExternalControls>
+		<ExternalControl type="CloseBox">
+			<!-- Parent HT -->
+			<Parent>TopRight</Parent>
+			<!-- Relative Position -->
+			<Point x="-5" y="4"/>
+		</ExternalControl>
+		<ExternalControl type="MinimizeBox">
+			<!-- Parent HT -->
+			<Parent>TopRight</Parent>
+			<!-- Relative Position -->
+			<Point x="-20" y="5"/>
+		</ExternalControl>
+		<ExternalControl type="RollupBox">
+			<!-- Parent HT -->
+			<Parent>TopLeft</Parent>
+			<!-- Relative Position -->
+			<Point x="7" y="4"/>
+		</ExternalControl>
+	</ExternalControls>
+
+	<!--Title bar setting options-->
+	<TitleBarTextSettings color="gold" size="12">
+		<Offset>
+			<Point x="0" y="2"/>
+		</Offset>
+	</TitleBarTextSettings>
+	
+	<BackgroundOffsets topEdge="-5" bottomEdge="5" leftEdge="-8" rightEdge="8"/>
+	
+	<BackgroundOffsetsFrameAll topEdge="-4" bottomEdge="4" leftEdge="-4" rightEdge="4"/>
+
+	
+</SkinInfo>
+</XML>

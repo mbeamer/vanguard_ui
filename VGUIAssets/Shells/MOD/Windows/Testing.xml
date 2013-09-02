@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<XML id="SGOUIMarkupLanguage"
+	version="0.1"
+	xmlns="http://www.sigilgames.com/vanguard-ui-0.1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sigilgames.com/vanguard-ui-0.1 ../../../vanguard-ui.xsd">
+<VGUIWindow name="Testing">
+	 <Rect x="200" y="400" width="200" height="100"/>
+	 <Settings  visible="true"
+				border="frameall"
+				background="true"
+				movable="true">
+	 </Settings>	 
+</VGUIWindow>
+</XML>

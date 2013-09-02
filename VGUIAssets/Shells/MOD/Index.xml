@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<XML id="SGOUIMarkupLanguage" version="0.1"
+	xmlns="http://www.sigilgames.com/vanguard-ui-0.1" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sigilgames.com/vanguard-ui-0.1 ../../vanguard-ui.xsd">
+	
+	<!-- These windows are required for the client to startup. They are loaded at initial run-time.
+	Removing windows or window components from these files is likely to cause crashes. -->
+	<SystemWindows directory="../Default/WindowsWindows">
+		<Window filename="VGUIInfoMessage.xml"/>
+		<Window filename="VGUICharacterCreationWnd.xml"/>
+		<Window filename="VGUIChatWnd.xml"/>
+		<Window filename="VGUICompass.xml"/>
+		<Window filename="VGUIExaminePopups.xml"/>
+		<Window filename="VGUIHotkeyMacro.xml"/>
+		<Window filename="VGUIHotkeys.xml"/>
+		<Window filename="VGUILoginWnd.xml"/>
+		<Window filename="VGUIMainBar.xml"/>
+		<Window filename="VGUISettingsWnd.xml"/>
+	</SystemWindows>
+	
+	<!-- These gameplay windows are loaded when you enter the game.
+	Gameplay windows are significantly safer to edit than system windows. -->
+	
+	<GameplayWindows directory="../Default/WindowsWindows">
+		<Window filename="VGUIFishingAchievements.xml"/>
+		<Window filename="RiftMaps.xml"/>
+		<Window filename="VGUIAbilities.xml"/>
+		<Window filename="VGUIAcceptDecline.xml"/>
+		<Window filename="VGUIAssembly.xml"/>
+		<Window filename="VGUIAssemblyTimer.xml"/>
+		<Window filename="VGUIAssemblyTrainer.xml"/>
+		<Window filename="VGUIAttachedAbilities.xml"/>
+		<Window filename="VGUIAttackResultsDisplay.xml"/>
+		<Window filename="VGUIAuctionWnd.xml"/>
+		<Window filename="VGUIBank.xml"/>
+		<Window filename="VGUIBugReport.xml"/>
+		<Window filename="VGUIBuildingConstruction.xml"/>
+		<Window filename="VGUIBuildingInformationWnd.xml"/>
+		<Window filename="VGUIBuildingInventory.xml"/>
+    		<Window filename="VGUIBuildingNPCs.xml"/>
+		<Window filename="VGUICastBar.xml"/>
+		<Window filename="VGUICharacter.xml"/>
+		<Window filename="VGUIClaimWnd.xml"/>
+		<Window filename="VGUICombatInv.xml"/>
+		<Window filename="VGUIConversion.xml"/>
+		<Window filename="VGUICorpseList.xml"/>
+		<Window filename="VGUICountdown.xml"/>
+		<Window filename="VGUICrafting.xml"/>
+		<Window filename="VGUICraftingActions.xml"/>
+		<Window filename="VGUICraftingCatalyst.xml"/>
+		<Window filename="VGUICraftingComplications.xml"/>
+		<Window filename="VGUICraftingInventory.xml"/>
+		<Window filename="VGUICraftingRemedies.xml"/>
+		<Window filename="VGUICraftingToolbelts.xml"/>
+		<Window filename="VGUICraftingWorkbench.xml"/>
+		<Window filename="VGUICraftingWorkbenchFilling.xml"/>
+		<Window filename="VGUICurrentWorkOrders.xml"/>
+		<Window filename="VGUIDeathReleasePopup.xml"/>
+		<Window filename="VGUIDialogs.xml"/>
+		<Window filename="VGUIAttachment.xml"/>
+		<Window filename="VGUIEncounterDisplay.xml"/>
+		<Window filename="VGUIEventDisplay.xml"/>
+		<Window filename="VGUIEventDisplayEntry.xml"/>
+		<Window filename="VGUIGroup.xml"/>
+		<Window filename="VGUIGroupLootOptions.xml"/>
+		<Window filename="VGUIGuildManagement.xml"/>
+		<Window filename="VGUIHarvestingDisplay.xml"/>
+		<Window filename="VGUIInspect.xml"/>
+		<Window filename="VGUIInventory.xml"/>
+		<Window filename="VGUIInventoryContainerTemplate.xml"/>
+		<Window filename="VGUIInventoryPopups.xml"/>
+		<Window filename="VGUILoot.xml"/>
+		<Window filename="VGUIMailWnd.xml"/>
+		<Window filename="VGUIMaintainedAbilities.xml"/>
+		<Window filename="VGUIMap.xml"/>
+		<Window filename="VGUIMarketWnd.xml"/>
+		<Window filename="VGUIMemTimeRemaining.xml"/>
+		<Window filename="VGUIMerchant.xml"/>
+		<Window filename="VGUIMinions.xml"/>
+		<Window filename="VGUIMiniMap.xml"/>
+		<Window filename="VGUINPCOptionsMenu.xml"/>
+		<Window filename="VGUIObjectInteraction.xml"/>
+		<Window filename="VGUIParley.xml"/>
+		<Window filename="VGUIPet.xml"/>
+		<Window filename="VGUIPetitionWnd.xml"/>
+		<Window filename="VGUIPlayerStatus.xml"/>
+		<Window filename="VGUIQuests.xml"/>
+		<Window filename="VGUIQuestStatus.xml"/>
+		<Window filename="VGUIRandomLootInvitation.xml"/>
+		<Window filename="VGUIReactions.xml"/>
+		<Window filename="VGUIRecipeTrainer.xml"/>
+		<Window filename="VGUIRefiningActions.xml"/>
+		<Window filename="VGUIRefiningAlerts.xml"/>
+		<Window filename="VGUIRefiningStart.xml"/>
+		<Window filename="VGUIRefiningStatus.xml"/>
+		<Window filename="VGUISailing.xml"/>
+		<Window filename="VGUISocialWnd.xml"/>
+		<Window filename="VGUISong.xml"/>
+		<Window filename="VGUITaskMasterWorkOrders.xml"/>
+		<Window filename="VGUITrade.xml"/>
+		<Window filename="VGUITrainer.xml"/>
+		<Window filename="VGUITutorial.xml"/>
+		<Window filename="DiplomacyComponents\VGUIParleyCard.xml"/>
+		<Window filename="VGUIParleyStrategy.xml"/>
+		<Window filename="VGUITestData.xml"/>
+		<Window filename="VGUIRaidManagement.xml"/>
+		<Window filename="VGUITargetBuffs.xml"/>
+		<Window filename="VGUITargetBuffsNoText.xml"/>
+		<Window filename="VGUITargetDebuffs.xml"/>
+		<Window filename="VGUITargetDebuffsNoText.xml"/>
+		<Window filename="VGUITargetDebuffsMine.xml"/>
+		<Window filename="VGUITargetWeaknesses.xml"/>
+		<Window filename="VGUITargetWeaknessesNoText.xml"/>
+		<Window filename="VGUIIconTargetSpellsAndWeaknesses.xml"/>
+		<Window filename="VGUITrialWnd.xml"/>
+		<Window filename="VGUIAlternateAdvancementWnd.xml"/>
+		<Window filename="VGUICommerceWnd.xml"/>
+	</GameplayWindows>
+	<GameplayWindows directory="Windows">
+		<Window filename="Testing.xml"/>
+	</GameplayWindows>
+</XML>

@@ -16,6 +16,10 @@ $ git fetch
 $ git branch master origin/master
 $ git checkout master
 
+Dependencies:
+
+The guild_members script requires BeautifulSoup.  I've used 4.3.1, it can be found at http://www.crummy.com/software/BeautifulSoup/.
+
 Usage:
 
 The process is this:

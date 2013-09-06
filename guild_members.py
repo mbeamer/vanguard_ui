@@ -2,6 +2,7 @@ import re
 import sys
 import os
 from bs4 import BeautifulSoup
+from mechanize import Browser
 
 def parse_log(members, input_file):
 	''' Parse the input_log and output an updated member_list '''
@@ -65,8 +66,11 @@ def update_html(members, web_file):
 			result = None
 		return result
 		
-	source = BeautifulSoup(open(os.path.join(web_file, "members.html")))
-
+	url = "http://stoneandsteelguild.com/members.html"
+	page = mech.open(url)
+	html = page.read()
+#	source = BeautifulSoup(open(os.path.join(web_file, "members.html")))
+	source = BeautifulSoup(html)	
 	# We care about the 4th table in the page
 	table = source.findAll('table')[3] 
 
